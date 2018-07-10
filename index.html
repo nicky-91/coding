@@ -1,0 +1,189 @@
+
+<!doctype html>
+<html>
+<!-- CSS, cascading style sheet-->
+<head>
+<style type="text/css">
+
+<!-- body, affects the wholw website-->
+
+	body {background-color:white;
+		background-image:url(dog.jpg);
+		background-repeat:no-repeat;
+		background-position:50% 50%;}
+
+	p {color:brown; 
+		font-family:batang;
+		line-height:140%;
+		text-align:center;
+		text-indent:35px;
+		margin:3px;
+		width:350px;}
+	
+	h1 {color:green;
+		font-family:broadway;
+		font-weight:bold;
+		text-align:center;
+		background-color:pink;
+		padding:20px;
+		border-color:blue;
+		border-width:3px;
+		border-style:solid;
+		}
+	
+	h2 {font-style:italic;
+		color:blue;
+		font-family:boopee;
+		font-weight:bold;
+		text-align:center;}
+
+	a:link {color:red;
+		text-decoration:none;}
+	a:visited {color:green;}
+	a:hover {background-color:blue;
+			color:white;
+			text-decoration:underline;
+			font-weight:bold;}
+	a:active {background-color:orange;}
+	
+	table {border: 3px solid blue;}
+	tr {background-color:yellow;}
+	td {border: 2px dashed red;}
+	
+	ul {list-style-type: katakana-iroha;
+		border: 1px solid red;}
+<!-- for using images you have to download a file before 
+doing the following {list-style-image:url (check.png);}
+padding:0; to push everything to the left if you have
+no bullets -->	
+	
+<!--styling up more than one element at a time;
+	h1, p {blablablabalabala}-->	
+<!--<span></span>, you want to change the features of a text but not
+the overal text-->
+	span {font-weight:bold;
+		color:blue;}
+<!--div element, gives you the ability to divide elemenst in
+your website-->	
+
+	div {border:2px solid pink;
+		position: absolute;
+		color:purple;}
+
+	
+</style>
+
+<title>Our First Website</title>
+</head>
+
+<body>
+
+<img src="nick.jpg" height="250"/>
+
+<a href="#ODHIAMBO">Odhiambo section</a><br />
+<a href="#KEVIN">Kevin section</a><br />
+<a href="#OCHIENG">Ochieng section</a>
+
+<h1>Belgium vs Japan</h1>
+<h2>World Cup</h2>
+<hr />
+<p><strong>i am in</strong> <br /><em>the body</em></p>
+<p>Hi my name is <em>Nick</em></p>
+<p>and i am very lucky</p>
+<!-- this is how you make a comment -->
+<!-- the "title" is a "tool tip"-->
+<a href="http://google.com" title="Awesome Search Engine">This will be a link</a>
+
+<div>Why is my name Nick?</div>
+
+<!-- how to create a link within the same page-->
+
+<h2><a name="ODHIAMBO"></a>ODHIAMBO OTIENO</h2>
+<p>a)	KCA University accounts department is designing a database entry screen. The screen will display a form consisting of a large number of text boxes. The information to be entered will be in several categories, including personal details, account details and transaction information. Discuss ways in which the Gestalt Laws of Perceptual Organization could be applied to enhance the usability of this screen.
+b)	User support comes in a number of styles. List six approaches to user support        
+c)	Explain the concept of keystroke Level Model(KLM)</p> 
+<br />
+<h2><a name="KEVIN"></a>KEVIN JAKANDANGO</h2>
+<p>a)	WinIT Ltd, a company with limited resources based in Nairobi wishes to evaluate the usability of their web site. Discuss the approaches which could be taken in evaluating their site.
+b)	Describe techniques for knowledge representation in an Adaptive Help System.  
+c)	Compare the characteristics of the following computer-based simulation techniques: 
+i)	Horizontal prototyping
+ii)	Vertical prototyping
+iii)	Scenarios</p>
+<br />
+<h2><a name="OCHIENG"></a>OCHIENG OCHOLA NIXON</h2> 
+<p>a)	The focal point of Gestalt theory is the idea of "grouping," or how we tend to interpret a visual field or problem in a certain way. Explain briefly the main factors that determine grouping
+b)	Explain the stages of Knowledge Analysis of Task
+c)	Differentiate <span>between horizontal prototyping and Wizard of Oz prototyping</span> techniques. 
+d)	Direct manipulation interaction style describes systems that have certain features. Enumerate such three core features.                     
+e)	Using a table, compare and contrast User-Centred and Usage-Centred design paradigm.       
+f)	Describe how contextual inquiry differs from laboratory experiments</p>
+
+<hr />
+<!--we are going to make tables-->
+
+<table border="2">
+	<tr>
+		<th colspan="3"><h3>Tis My Table</h3></th>
+	</tr>
+	<tr>
+		<th>What i Eat</th>
+		<th>Where i Go</th>
+		<th>Why i work</th>
+	</tr>
+	<tr>
+		<td>FOOD</td>
+		<td>GYM</td>
+		<td>MONEY</td>
+	</tr>
+	<tr>
+		<td>GOD</td>
+		<td>CHRIST</td>
+		<td>HOLY SPIRIT</td>
+	</tr>
+</table>
+
+<br />
+<hr />
+<table border="2" width="800" cellpadding="10" cellspacing="10">
+<!-- on width, you can aslo use percantage-->
+<!-- cell padding and cell spacing-->
+
+	<tr>
+		<th>What i Eat</th>
+		<th>Where i Go</th>
+		<th>Why i work</th>
+	</tr>
+	<tr>
+		<td>FOOD</td>
+		<td>GYM</td>
+		<td>MONEY</td>
+	</tr>
+	<tr>
+		<td>GOD</td>
+		<td>CHRIST</td>
+		<td>HOLY SPIRIT</td>
+	</tr>
+
+</table>
+
+<!-- lists, ordered ans unordered-->
+
+	<ul>
+		<li>God</li>
+		<li>Money</li>
+		<li>Clothes</li>
+		<li>Food</li>
+		<li>Gym</li>
+	</ul>
+
+	<ol>
+		<li>God</li>
+		<li>Money</li>
+		<li>Clothes</li>
+		<li>Food</li>
+		<li>Gym</li>
+	</ol>
+</body>
+
+</html>
